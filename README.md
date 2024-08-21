@@ -32,4 +32,4 @@ Git Flow
     Правки ошибок - правим ошибки в ветках, созданных от ветки main. Ветки называют hotfix.
 24. Когда hotfix завершается, мерджится и в dev и в main
 25. git checkout -b hotfix/about-page-title - создаем ветку хотфикс и переходим.
-26.
+26. удаляем ветку git branch -d hotfix/about-page-title - локально. Также удалить на гитхабе
