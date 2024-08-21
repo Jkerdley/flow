@@ -12,3 +12,9 @@ Git Flow
 7. git add . - выгрузить изменения всех файлов в stage
 8. git commit -m '' - коммит
 9. git push origin feature/main-page - передать ветку на гитхаб
+10. git checkout dev - перейти в ветку dev чтобы от нее создать новую ветку.
+11. git checkout -b feature/about-page - создает новую ветку и сразу переходит в нее
+12. создаем изменения и пушим на гитхаб.
+13. Чтобы сделать merge с dev нужно перейти в dev и написать git merge feature/main-page (переходим в целевую ветку и пишем какую
+    ветку подсоединить).
+14.
