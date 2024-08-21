@@ -29,3 +29,7 @@ Git Flow
 21. git merge release/0.1.2
 22. git branch -d release/0.1.2 - удаляем ветку
 23. gut push origin main - пушим главную ветку
+    Правки ошибок - правим ошибки в ветках, созданных от ветки main. Ветки называют hotfix.
+24. Когда hotfix завершается, мерджится и в dev и в main
+25. git checkout -b hotfix/about-page-title - создаем ветку хотфикс и переходим.
+26.
